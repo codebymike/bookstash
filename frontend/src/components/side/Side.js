@@ -2,9 +2,9 @@ import React from "react";
 import "./Side.css";
 
 const Side = () => (
-  <div id="side">
+  <aside id="controls">
     side
-  </div>
+  </aside>
 );
 
 export default Side;

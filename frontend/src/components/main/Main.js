@@ -2,9 +2,9 @@ import React from "react";
 import "./Main.css";
 
 const Main = () => (
-  <div id="main">
+  <main>
     main
-  </div>
+  </main>
 );
 
 export default Main;
