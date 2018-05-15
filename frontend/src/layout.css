@@ -10,29 +10,29 @@ footer { grid-area: footer; }
 main { grid-area: main; }
 aside#controls { grid-area: side; }
 
-div#root div.bookstash{
+.bookstash{
 	display: grid;
-	grid-template-areas: "header header header"
-	                     "side main main"
-	                     "footer footer footer";
-	grid-template-columns: 150px 1fr 150px;
+	grid-template-areas: "header header"
+	                     "side main"
+	                     "footer footer";
+	grid-template-columns: 150px 1fr;
 	grid-template-rows: 100px
-						1fr
-						30px;
+						          1fr
+						          30px;
 	min-height: 100vh;
 }
 
 @media screen and (max-width: 600px) {
-	div#root div.bookstash {
+  .bookstash {
 		grid-template-areas: "header"
 		                     "side"
 		                     "main"
 		                     "footer";
 		grid-template-columns: 100%;
 		grid-template-rows: 100px
-							50px
-							1fr
-							50px
-							30px;
+							          50px
+							          1fr
+							          50px
+							          30px;
 	}
 }
