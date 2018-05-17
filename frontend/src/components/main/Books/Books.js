@@ -9,21 +9,15 @@ class Books extends React.Component{
   }
 
   componentDidMount() {
-    const books = [
-      {
-        'id': 1,
-        'title': 'Dune'
-      },
-      {
-        'id': 2,
-        'title': 'Ender\'s Game'
-      },
-      {
-        'id': 3,
-        'title': '2001: A Space Odyssey'
-      }
-    ];
+    const apiUrl = `https://b1w5pwo5bd.execute-api.eu-west-1.amazonaws.com/latest/books`;
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => this.storeBooks(data))
+      .catch(error => console.log(error));
+  }
 
+  storeBooks = data => {
+    const books = data;
     this.setState({ books });
   }
 
