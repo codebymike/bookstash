@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "bookstash-api-executor",
+    "name": "bookstash-api",
+    "region": "eu-west-1"
+  },
+  "api": {
+    "id": "b1w5pwo5bd",
+    "module": "api"
+  }
+}
