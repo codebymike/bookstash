@@ -22,7 +22,7 @@ class Books extends React.Component{
 
   render() {
     return (
-      <ul className="book_list">
+      <ul className="Books">
         {this.state.books.map( book => (
           <BookListItem key={ book.id } book={ book } />
         ))}

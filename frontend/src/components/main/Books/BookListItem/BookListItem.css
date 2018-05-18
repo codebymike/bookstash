@@ -1,0 +1,20 @@
+li.BookListItem{
+  position: relative;
+}
+
+li.BookListItem img{
+  width: 100%;
+}
+
+div.book_stub{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.8);
+  padding: 10px;
+  width: 100%;
+}
+
+div.book_stub span{
+  display: block;
+  margin-bottom: 6px;
+}
