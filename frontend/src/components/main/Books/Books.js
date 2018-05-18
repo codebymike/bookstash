@@ -16,8 +16,7 @@ class Books extends React.Component{
       .catch(error => console.log(error));
   }
 
-  storeBooks = data => {
-    const books = data;
+  storeBooks = books => {
     this.setState({ books });
   }
 
