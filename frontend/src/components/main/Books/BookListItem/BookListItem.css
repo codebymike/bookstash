@@ -2,6 +2,10 @@ li.BookListItem{
   position: relative;
 }
 
+li.BookListItem.read{
+  opacity: 0.4;
+}
+
 li.BookListItem img{
   width: 100%;
 }
