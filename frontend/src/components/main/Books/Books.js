@@ -67,7 +67,6 @@ class Books extends React.Component{
 
       books[ book_idx ] = book;
       this.setState({ books });
-
   }
 
   render() {

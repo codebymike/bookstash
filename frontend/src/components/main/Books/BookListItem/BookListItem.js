@@ -12,7 +12,7 @@ const BookListItem = ({ book, toggleRead }) => {
         <span className="title">{ title }</span>
         <span className="author">{ author }</span>
         <span className="rating">4.6</span>
-        <button onClick={ () => toggleRead(id) }>Read</button>
+        <button onClick={ () => toggleRead(id) }>Mark as { read ? 'unread' : 'read' }</button>
       </div>
     </li>
   )
