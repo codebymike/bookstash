@@ -43,6 +43,7 @@ class Books extends React.Component{
     return (datastored && JSON.parse(datastored)) || []
   }
 
+  //TODO refactor into smaller functions
   toggleRead( id ){
       // update the read state in tootle inclusion of id
       let read = [...this.state.read];
