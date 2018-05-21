@@ -1,9 +1,9 @@
 ul.Books{
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-gap: 10px;
 }
 
 ul.Books li{
   list-style-type: none;
+  margin:5px;
 }
