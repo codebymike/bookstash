@@ -2,7 +2,7 @@ import React from 'react';
 import './BookListItem.css';
 
 const BookListItem = ({ book, toggleRead }) => {
-  const {id, title, author, image} = book;
+  const {id, title, author, image, rating} = book;
   const read = (book.read) || false;
 
   return (
@@ -11,7 +11,7 @@ const BookListItem = ({ book, toggleRead }) => {
       <div className="book_stub" id={ id }>
         <span className="title">{ title }</span>
         <span className="author">{ author }</span>
-        <span className="rating">4.6</span>
+        <span className="rating">{ rating }</span>
         <button onClick={ () => toggleRead(id) }>Mark as { read ? 'unread' : 'read' }</button>
       </div>
     </li>
