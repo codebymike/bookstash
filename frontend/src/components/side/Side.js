@@ -1,9 +1,10 @@
 import React from "react";
 import "./Side.css";
+import Controls from "./Controls/Controls.js"
 
-const Side = () => (
+const Side = ( props ) => (
   <aside id="controls">
-    side
+    <Controls setSortOrder={ props.setSortOrder }/>
   </aside>
 );
 

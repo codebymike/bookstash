@@ -9,17 +9,25 @@ class Books extends React.Component{
     read: [],
   }
 
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.toggleRead = this.toggleRead.bind(this);
   }
 
   async componentDidMount() {
-    const apiUrl = `https://b1w5pwo5bd.execute-api.eu-west-1.amazonaws.com/latest/books`;
-
     await this.setState({ read: this.localStore('bookstash.readlist') });
+    this.fetchBooks( this.props.url );
+  }
 
-    fetch(apiUrl)
+  componentWillReceiveProps(nextProps) {
+    console.log(nextProps.url);
+    if (this.props.url !== nextProps.url) {
+      this.fetchBooks(nextProps.url);
+    }
+  }
+
+  fetchBooks(url){
+    fetch( url )
       .then(response => response.json())
       .then(data => this.storeBooks(data))
       .catch(error => console.log(error));

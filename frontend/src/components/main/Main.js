@@ -2,9 +2,9 @@ import React from "react";
 import "./Main.css";
 import Books from "./Books/Books";
 
-const Main = () => (
+const Main = (props) => (
   <main>
-    <Books />
+    <Books url={ props.url }/>
   </main>
 );
 
