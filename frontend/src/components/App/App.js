@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Header from "../header/Header";
-import Main from "../main/Main";
-import Side from "../side/Side";
-import Footer from "../footer/Footer";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Header from "./Header/Header";
+import Main from "./Main/Main";
+import Side from "./Side/Side";
+import Footer from "./Footer/Footer";
 import './App.css';
 
 class App extends Component {
