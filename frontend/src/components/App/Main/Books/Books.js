@@ -52,7 +52,10 @@ class Books extends React.Component{
   }
 
   //TODO refactor into smaller functions
-  toggleRead( id ){
+  toggleRead( e, id ){
+
+      e.preventDefault();
+
       // update the read state in tootle inclusion of id
       let read = [...this.state.read];
       let read_idx = read.indexOf(id);

@@ -3,7 +3,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Header from "./Header/Header";
 import Main from "./Main/Main";
 import Side from "./Side/Side";
+import Book from "./Book/Book";
 import Footer from "./Footer/Footer";
+import NotFound from "./NotFound/NotFound";
 import './App.css';
 
 class App extends Component {
@@ -24,6 +26,7 @@ class App extends Component {
     this.generateApiUrl();
   }
 
+
   generateApiUrl(){
     const sort_order = this.state.sort_order;
     const api_url = `https://b1w5pwo5bd.execute-api.eu-west-1.amazonaws.com/latest/books?sort=${ sort_order }`;
@@ -32,12 +35,22 @@ class App extends Component {
 
   render() {
     return (
-      <div className="bookstash">
-        <Header />
-        <Main url={ this.state.api_url } />
-        <Side setSortOrder={ this.setSortOrder }/>
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <div className="bookstash">
+          <Header />
+          <Switch>
+            <Route exact path='/' render={ () => (
+              <div id="booklist">
+                <Main url={ this.state.api_url } />
+                <Side setSortOrder={ this.setSortOrder }/>
+              </div>
+              ) }/>
+            <Route path="/:author/:book_title/:book_id" component={Book} />
+            <Route component={NotFound} />
+          </Switch>
+          <Footer />
+        </div>
+      </BrowserRouter>
     )
   }
 }
