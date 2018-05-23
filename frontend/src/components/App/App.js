@@ -15,25 +15,20 @@ class App extends Component {
     api_url: "https://b1w5pwo5bd.execute-api.eu-west-1.amazonaws.com/latest/books"
   }
 
-  constructor(){
-    super();
-    this.setSortOrder = this.setSortOrder.bind(this);
-  }
-
-  async setSortOrder( order ){
+  setSortOrder = async ( order ) => {
     // alert( order );
     await this.setState({ sort_order: order });
     this.generateApiUrl();
   }
 
 
-  generateApiUrl(){
+  generateApiUrl = () => {
     const sort_order = this.state.sort_order;
     const api_url = `https://b1w5pwo5bd.execute-api.eu-west-1.amazonaws.com/latest/books?sort=${ sort_order }`;
     this.setState({ api_url });
   }
 
-  render() {
+  render = () => {
     return (
       <BrowserRouter>
         <div className="bookstash">
