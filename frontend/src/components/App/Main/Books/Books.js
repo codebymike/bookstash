@@ -39,6 +39,7 @@ class Books extends React.Component{
     this.setState({ books: read_books });
   }
 
+  //TODO move to helper functions
   localStore = (namespace, data) => {
     if (data) return localStorage.setItem(namespace, JSON.stringify(data))
 
