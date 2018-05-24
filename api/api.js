@@ -43,4 +43,12 @@ api.get('/books', (request) => {
   return book_data;
 });
 
+api.get('/books/{id}', (request) => {
+
+  return books.find( book => book.isbn === request.pathParams.id );
+
+}, {
+  error: 404
+})
+
 module.exports = api

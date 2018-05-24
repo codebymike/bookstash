@@ -41,9 +41,9 @@ class App extends Component {
                   <Side setSortOrder={ this.setSortOrder }/>
                 </div>
               ) }/>
-            <Route path="/:author/:book_title/:book_id" render={ () => (
+            <Route path="/:author/:book_title/:book_id" render={ routeProps => (
                 <div className="group">
-                  <Book />
+                  <Book {...routeProps} />
                   <BookNavigation />
                 </div>
               )} />

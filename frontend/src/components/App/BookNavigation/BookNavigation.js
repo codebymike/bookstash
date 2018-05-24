@@ -12,6 +12,14 @@ const BookNavigation = () => {
           </ul>
         </dd>
       </dl>
+      <dl>
+        <dt>Jump to</dt>
+        <dd>
+          <ul>
+            <li><a href="#">Something</a></li>
+          </ul>
+        </dd>
+      </dl>
     </aside>
   )
 }
