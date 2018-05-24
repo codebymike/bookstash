@@ -3,7 +3,7 @@ import "./Side.css";
 import Controls from "./Controls/Controls.js"
 
 const Side = ( props ) => (
-  <aside id="controls">
+  <aside>
     <Controls setSortOrder={ props.setSortOrder }/>
   </aside>
 );

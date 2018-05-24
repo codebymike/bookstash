@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import Main from "./Main/Main";
 import Side from "./Side/Side";
 import Book from "./Book/Book";
+import BookNavigation from './BookNavigation/BookNavigation';
 import Footer from "./Footer/Footer";
 import NotFound from "./NotFound/NotFound";
 import './App.css';
@@ -35,12 +36,17 @@ class App extends Component {
           <Header />
           <Switch>
             <Route exact path='/' render={ () => (
-              <div id="booklist">
-                <Main url={ this.state.api_url } />
-                <Side setSortOrder={ this.setSortOrder }/>
-              </div>
+                <div className="group">
+                  <Main url={ this.state.api_url } />
+                  <Side setSortOrder={ this.setSortOrder }/>
+                </div>
               ) }/>
-            <Route path="/:author/:book_title/:book_id" component={Book} />
+            <Route path="/:author/:book_title/:book_id" render={ () => (
+                <div className="group">
+                  <Book />
+                  <BookNavigation />
+                </div>
+              )} />
             <Route component={NotFound} />
           </Switch>
           <Footer />

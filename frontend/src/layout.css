@@ -8,7 +8,7 @@
 header { grid-area: header; }
 footer { grid-area: footer; }
 main { grid-area: main; }
-aside#controls { grid-area: side; }
+aside { grid-area: side; }
 
 .bookstash{
 	display: grid;
@@ -22,7 +22,7 @@ aside#controls { grid-area: side; }
 	min-height: 100vh;
 }
 
-.bookstash div#booklist{
+.bookstash div.group{
   display: contents;
 }
 
