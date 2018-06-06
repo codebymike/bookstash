@@ -2,7 +2,7 @@ import React from "react";
 import "./Controls.css";
 
 const Controls = ( props ) => (
-  <dl>
+  <dl id="controls">
     <dt>Sort by</dt>
     <dd>
       <ul>

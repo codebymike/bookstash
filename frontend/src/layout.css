@@ -10,6 +10,10 @@ footer { grid-area: footer; }
 main { grid-area: main; }
 aside { grid-area: side; }
 
+aside { padding: 10px }
+
+aside dl { margin-bottom: 10px }
+
 .bookstash{
 	display: grid;
 	grid-template-areas: "header header"

@@ -1,11 +1,11 @@
 import React from "react";
-import "./Side.css";
+import "./BooksNavigation.css";
 import Controls from "./Controls/Controls.js"
 
-const Side = ( props ) => (
+const BooksNavigation = ( props ) => (
   <aside>
     <Controls setSortOrder={ props.setSortOrder }/>
   </aside>
 );
 
-export default Side;
+export default BooksNavigation;

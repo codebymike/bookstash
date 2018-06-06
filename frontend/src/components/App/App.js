@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Header from "./Header/Header";
 import Main from "./Main/Main";
-import Side from "./Side/Side";
+import BooksNavigation from "./BooksNavigation/BooksNavigation";
 import Book from "./Book/Book";
 import BookNavigation from './BookNavigation/BookNavigation';
 import Footer from "./Footer/Footer";
@@ -38,7 +38,7 @@ class App extends Component {
             <Route exact path='/' render={ () => (
                 <div className="group">
                   <Main url={ this.state.api_url } />
-                  <Side setSortOrder={ this.setSortOrder }/>
+                  <BooksNavigation setSortOrder={ this.setSortOrder }/>
                 </div>
               ) }/>
             <Route path="/:author/:book_title/:book_id" render={ routeProps => (
