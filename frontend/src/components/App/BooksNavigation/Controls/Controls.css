@@ -1,6 +1,6 @@
-div#controls dt{
+dl#controls dt{
   font-weight: bold;
   margin-bottom: 10px;
 }
-div#controls dd{ margin-left: 10px; }
-div#controls dd ul li{ list-style-type: none; }
+dl#controls dd{ margin-left: 10px; }
+dl#controls dd ul li{ list-style-type: none; }
