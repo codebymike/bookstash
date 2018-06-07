@@ -13,7 +13,14 @@ class App extends Component {
 
   state = {
     sort_order: "default",
-    api_url: "https://b1w5pwo5bd.execute-api.eu-west-1.amazonaws.com/latest/books"
+    api_url: "https://b1w5pwo5bd.execute-api.eu-west-1.amazonaws.com/latest/books",
+    year: {
+      label: "year",
+      min: 1932,
+      max: 2011,
+      step: 1,
+      value: { min: 1932, max: 2011 }
+    }
   }
 
   setSortOrder = async ( order ) => {
@@ -22,10 +29,21 @@ class App extends Component {
     this.generateApiUrl();
   }
 
+  setFilterValue = async ( data ) => {
+    await this.setState({
+      year: {
+        ...this.state.year,
+        value: data.value
+      }
+    });
+    this.generateApiUrl();
+  }
+
 
   generateApiUrl = () => {
     const sort_order = this.state.sort_order;
-    const api_url = `https://b1w5pwo5bd.execute-api.eu-west-1.amazonaws.com/latest/books?sort=${ sort_order }`;
+    const year = this.state.year;
+    const api_url = `https://b1w5pwo5bd.execute-api.eu-west-1.amazonaws.com/latest/books?sort=${ sort_order }&year.min=${ year.value.min }&year.max=${ year.value.max }`;
     this.setState({ api_url });
   }
 
@@ -38,7 +56,7 @@ class App extends Component {
             <Route exact path='/' render={ () => (
                 <div className="group">
                   <Main url={ this.state.api_url } />
-                  <BooksNavigation setSortOrder={ this.setSortOrder }/>
+                  <BooksNavigation year={this.state.year} setFilterValue={ this.setFilterValue } setSortOrder={ this.setSortOrder }/>
                 </div>
               ) }/>
             <Route path="/:author/:book_title/:book_id" render={ routeProps => (

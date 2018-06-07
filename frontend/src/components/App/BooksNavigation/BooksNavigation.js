@@ -4,7 +4,7 @@ import Controls from "./Controls/Controls.js"
 
 const BooksNavigation = ( props ) => (
   <aside>
-    <Controls setSortOrder={ props.setSortOrder }/>
+    <Controls {...props} />
   </aside>
 );
 

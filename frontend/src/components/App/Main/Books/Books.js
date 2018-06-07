@@ -15,7 +15,7 @@ class Books extends React.Component{
   }
 
   componentWillReceiveProps = (nextProps) => {
-    console.log(nextProps.url);
+    // console.log(nextProps.url);
     if (this.props.url !== nextProps.url) {
       this.fetchBooks(nextProps.url);
     }

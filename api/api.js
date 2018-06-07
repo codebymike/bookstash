@@ -15,6 +15,14 @@ api.get('/books', (request) => {
       }
   });
 
+  //Filter
+  //TODO generalise this
+  if( request.queryString['year.min'] && request.queryString['year.max'] ){
+    let min = request.queryString['year.min'];
+    let max = request.queryString['year.max'];
+    book_data = book_data.filter( book => book.first_published >= min && book.first_published <= max );
+  }
+
   //TODO a better way to organise this
   if( request.queryString.sort ){
     let sort_func;

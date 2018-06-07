@@ -2,5 +2,5 @@ dl#controls dt{
   font-weight: bold;
   margin-bottom: 10px;
 }
-dl#controls dd{ margin-left: 10px; }
+dl#controls dd{ margin-left: 10px; margin-bottom: 12px }
 dl#controls dd ul li{ list-style-type: none; }

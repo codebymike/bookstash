@@ -1,5 +1,6 @@
 import React from "react";
 import "./Controls.css";
+import Slider from "./Slider/Slider";
 
 const Controls = ( props ) => (
   <dl id="controls">
@@ -11,6 +12,14 @@ const Controls = ( props ) => (
         <li><a name="newest" onClick={ props.setSortOrder.bind(this, 'newest') }>Newest</a></li>
         <li><a name="longest" onClick={ props.setSortOrder.bind(this, 'longest') }>Longest</a></li>
         <li><a name="shortest" onClick={ props.setSortOrder.bind(this, 'shortest') }>Shortest</a></li>
+      </ul>
+    </dd>
+    <dt>Filter</dt>
+    <dd>
+      <ul>
+        <li>
+          <Slider {...props} />
+        </li>
       </ul>
     </dd>
   </dl>
