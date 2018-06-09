@@ -7,6 +7,7 @@ import Book from "./Book/Book";
 import BookNavigation from './BookNavigation/BookNavigation';
 import Footer from "./Footer/Footer";
 import NotFound from "./NotFound/NotFound";
+import { localStore } from '../../helpers';
 import './App.css';
 
 class App extends Component {
@@ -20,6 +21,13 @@ class App extends Component {
       max: 2011,
       step: 1,
       value: { min: 1932, max: 2011 }
+    }
+  }
+
+  componentDidMount = async () => {
+    const settings = localStore('bookstash.settings');
+    if( settings ){
+      this.setState({ ...settings });
     }
   }
 
@@ -45,6 +53,7 @@ class App extends Component {
     const year = this.state.year;
     const api_url = `https://b1w5pwo5bd.execute-api.eu-west-1.amazonaws.com/latest/books?sort=${ sort_order }&year.min=${ year.value.min }&year.max=${ year.value.max }`;
     this.setState({ api_url });
+    localStore('bookstash.settings', this.state);
   }
 
   render = () => {
