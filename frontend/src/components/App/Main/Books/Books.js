@@ -1,6 +1,7 @@
 import React from 'react';
 import './Books.css';
 import BookListItem from './BookListItem/BookListItem';
+import { localStore } from '../../../../helpers';
 
 class Books extends React.Component{
 
@@ -10,7 +11,7 @@ class Books extends React.Component{
   }
 
   componentDidMount = async () => {
-    await this.setState({ read: this.localStore('bookstash.readlist') });
+    await this.setState({ read: localStore('bookstash.readlist') });
     this.fetchBooks( this.props.url );
   }
 
@@ -39,14 +40,6 @@ class Books extends React.Component{
     this.setState({ books: read_books });
   }
 
-  //TODO move to helper functions
-  localStore = (namespace, data) => {
-    if (data) return localStorage.setItem(namespace, JSON.stringify(data))
-
-    let datastored = localStorage.getItem(namespace)
-    return (datastored && JSON.parse(datastored)) || []
-  }
-
   //TODO refactor into smaller functions
   toggleRead = (id, e) => {
 
@@ -63,7 +56,7 @@ class Books extends React.Component{
       this.setState({ read });
 
       // update the local storage for read books
-      this.localStore('bookstash.readlist', read );
+      localStore('bookstash.readlist', read );
 
       // update the state to mark books as read
       let books = [...this.state.books];
