@@ -1,9 +1,0 @@
-ul.Books{
-  display: grid;
-  grid-template-columns: repeat(4, 25%);
-}
-
-ul.Books li{
-  list-style-type: none;
-  margin:5px;
-}
