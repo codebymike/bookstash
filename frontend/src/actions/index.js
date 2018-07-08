@@ -4,6 +4,15 @@ export const VisibilityFilters = {
   SHOW_TO_READ: 'SHOW_TO_READ'
 }
 
+export const BookSortOrder = {
+  DEFAULT: 'DEFAULT',
+  POPULARITY: 'POPULARITY',
+  OLDEST: 'OLDEST',
+  NEWEST: 'NEWEST',
+  LONGEST: 'LONGEST',
+  SHORTEST: 'SHORTEST'
+}
+
 export const toggleToRead = id => ({
   type: 'TOGGLE_TO_READ',
   id
@@ -50,4 +59,9 @@ export const requestBook = id => ({
 export const setBook = book => ({
   type: 'SET_BOOK',
   book
+})
+
+export const setSortOrder = order => ({
+  type: 'SET_SORT_ORDER',
+  order
 })
