@@ -4,7 +4,6 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 
 import rootReducer from './reducers'
 import rootSaga from './sagas'
-import { getBooks } from './actions'
 // import book_json from './data/books'
 
 // const books = book_json.map( (b, i) => {
@@ -32,6 +31,6 @@ const store = createStore(
 
 sagaMiddleware.run(rootSaga)
 
-store.dispatch(getBooks())
+// store.dispatch(getBooks())
 
 export default store

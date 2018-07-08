@@ -1,7 +1,21 @@
+import React from 'react'
 import { connect } from 'react-redux'
 import { toggleToRead, toggleHaveRead } from '../actions'
 import BookList from '../components/BookList'
-import { VisibilityFilters } from '../actions'
+import { getBooks, VisibilityFilters } from '../actions'
+
+class Books extends React.Component {
+
+  componentDidMount = () => {
+    this.props.dispatchGetBooks( getBooks() );
+  }
+
+  render = () => {
+    return (
+      <BookList {...this.props}/>
+    )
+  }
+}
 
 const getVisibleBooks = (books, filter) => {
   switch (filter) {
@@ -22,10 +36,11 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   toggleToRead: id => dispatch(toggleToRead(id)),
-  toggleHaveRead: id => dispatch(toggleHaveRead(id))
+  toggleHaveRead: id => dispatch(toggleHaveRead(id)),
+  dispatchGetBooks: () => dispatch(getBooks())
 })
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(BookList)
+)(Books)

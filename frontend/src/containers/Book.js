@@ -6,7 +6,8 @@ import { getBook } from '../actions'
 class Book extends React.Component {
 
   componentDidMount() {
-    this.props.dispatch( getBook('0307347974') );
+    const book_id = this.props.match.params.id
+    this.props.dispatch( getBook( book_id ) );
   }
 
   render() {
