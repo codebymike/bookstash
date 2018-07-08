@@ -1,5 +1,7 @@
-const book = (state = [], action) => {
+const book = (state = {}, action) => {
   switch ( action.type ){
+    case 'REQUEST_BOOK':
+      return {}
     case 'SET_BOOK':
       return action.book
     default:
