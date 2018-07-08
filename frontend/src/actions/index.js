@@ -19,7 +19,7 @@ export const setVisibilityFilter = filter => ({
   filter
 })
 
-export const catchError = (error) => ({
+export const catchError = error => ({
   type: 'ERROR',
   error
 })
@@ -32,7 +32,22 @@ export const requestBooks = () => ({
   type: 'REQUEST_BOOKS'
 })
 
-export const setBooks = (books) => ({
+export const setBooks = books => ({
   type: 'SET_BOOKS',
   books
+})
+
+export const getBook = id => ({
+  type: 'INIT_BOOK_SAGA',
+  id
+})
+
+export const requestBook = id => ({
+  type: 'REQUEST_BOOK',
+  id
+})
+
+export const setBook = book => ({
+  type: 'SET_BOOK',
+  book
 })

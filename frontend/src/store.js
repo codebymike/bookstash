@@ -16,6 +16,7 @@ import { getBooks } from './actions'
 
 const defaultState = {
   books: [],
+  book: {},
   visibilityFilter: 'SHOW_ALL'
 }
 

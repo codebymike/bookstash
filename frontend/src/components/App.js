@@ -1,13 +1,13 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Main from './Main'
-import BookView from './BookView'
+import Book from '../containers/Book'
 
 
 const App = () => (
   <Switch>
     <Route exact path='/' component={Main}/>
-    <Route path='/book/:id' component={BookView}/>
+    <Route path='/book/:id' component={Book}/>
   </Switch>
 )
 
