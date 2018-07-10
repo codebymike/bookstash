@@ -15,6 +15,10 @@ export default combineReducers({
 // Selectors
 export function getAPIURL(state){
   const base = state.apiUrl.base
-  const sort_order = state.apiUrl.sort_order
+  const sort_order = getSortOrder(state)
   return `${base}?sort=${sort_order}`
+}
+
+export function getSortOrder(state){
+  return state.apiUrl.sort_order;
 }

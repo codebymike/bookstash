@@ -26,6 +26,6 @@ function* fetchBookSaga(action) {
 }
 
 export default function* rootSaga() {
-  yield takeEvery('INIT_BOOKS_SAGA', fetchBooksSaga);
+  yield takeEvery(['INIT_BOOKS_SAGA','SET_SORT_ORDER'], fetchBooksSaga);
   yield takeEvery('INIT_BOOK_SAGA', fetchBookSaga);
 }
