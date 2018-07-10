@@ -5,12 +5,12 @@ export const VisibilityFilters = {
 }
 
 export const BookSortOrder = {
-  DEFAULT: 'DEFAULT',
-  POPULARITY: 'POPULARITY',
-  OLDEST: 'OLDEST',
-  NEWEST: 'NEWEST',
-  LONGEST: 'LONGEST',
-  SHORTEST: 'SHORTEST'
+  DEFAULT: 'default',
+  POPULARITY: 'popularity',
+  OLDEST: 'oldest',
+  NEWEST: 'newest',
+  LONGEST: 'longest',
+  SHORTEST: 'shortest'
 }
 
 export const toggleToRead = id => ({

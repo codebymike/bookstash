@@ -7,6 +7,14 @@ import visibilityFilter from './visibilityFilter'
 export default combineReducers({
   books,
   book,
-  apiUrl
+  apiUrl,
   visibilityFilter
 })
+
+
+// Selectors
+export function getAPIURL(state){
+  const base = state.apiUrl.base
+  const sort_order = state.apiUrl.sort_order
+  return `${base}?sort=${sort_order}`
+}
