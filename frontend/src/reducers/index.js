@@ -20,5 +20,17 @@ export function getAPIURL(state){
 }
 
 export function getSortOrder(state){
-  return state.apiUrl.sort_order;
+  return state.apiUrl.sort_order
+}
+
+export function getBookList(state){
+  return state.books.books_list
+}
+
+export function getToReadList(state){
+  return state.books.to_read
+}
+
+export function getHaveReadList(state){
+  return state.books.have_read
 }

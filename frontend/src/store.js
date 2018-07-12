@@ -13,17 +13,17 @@ import rootSaga from './sagas'
 //   }
 // });
 
-const defaultState = {
-  books: [],
-  book: {},
-  visibilityFilter: 'SHOW_ALL'
-}
+// const defaultState = {
+//   books: [],
+//   book: {},
+//   visibilityFilter: 'SHOW_ALL'
+// }
 
 const sagaMiddleware = createSagaMiddleware()
 
 const store = createStore(
   rootReducer,
-  defaultState,
+  // defaultState,
   composeWithDevTools(
     applyMiddleware(sagaMiddleware)
   )
