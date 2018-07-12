@@ -1,10 +1,10 @@
 import { connect } from 'react-redux'
 import { setSortOrder } from '../actions'
 import Link from '../components/Link'
-import { getSortOrder } from '../reducers'
+import { selectSortOrder } from '../reducers'
 
 const mapStateToProps = (state, ownProps) => ({
-  active: ownProps.sort_order === getSortOrder(state)
+  active: ownProps.sort_order === selectSortOrder(state)
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({

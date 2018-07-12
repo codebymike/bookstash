@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { toggleToRead, toggleHaveRead } from '../actions'
 import BookList from '../components/BookList'
 import { getBooks, VisibilityFilters } from '../actions'
-import { getBookList, getToReadList, getHaveReadList } from '../reducers'
+import { selectBookList, selectToReadList, selectHaveReadList } from '../reducers'
 
 class Books extends React.Component {
 
@@ -34,11 +34,11 @@ const getVisibleBooks = (books, filter, have_read_list, to_read_list) => {
 
 const mapStateToProps = state => {
 
-  const have_read_list = getHaveReadList(state)
-  const to_read_list = getToReadList(state)
+  const have_read_list = selectHaveReadList(state)
+  const to_read_list = selectToReadList(state)
 
   return {
-    books: getVisibleBooks(getBookList(state), state.visibilityFilter, have_read_list, to_read_list),
+    books: getVisibleBooks(selectBookList(state), state.visibilityFilter, have_read_list, to_read_list),
     have_read_list,
     to_read_list
   }

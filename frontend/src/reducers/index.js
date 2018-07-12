@@ -13,24 +13,24 @@ export default combineReducers({
 
 
 // Selectors
-export function getAPIURL(state){
+export function selectAPIURL(state){
   const base = state.apiUrl.base
-  const sort_order = getSortOrder(state)
+  const sort_order = selectSortOrder(state)
   return `${base}?sort=${sort_order}`
 }
 
-export function getSortOrder(state){
+export function selectSortOrder(state){
   return state.apiUrl.sort_order
 }
 
-export function getBookList(state){
+export function selectBookList(state){
   return state.books.books_list
 }
 
-export function getToReadList(state){
+export function selectToReadList(state){
   return state.books.to_read
 }
 
-export function getHaveReadList(state){
+export function selectHaveReadList(state){
   return state.books.have_read
 }

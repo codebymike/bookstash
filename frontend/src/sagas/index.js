@@ -1,11 +1,11 @@
 import { call, put, takeEvery, select } from 'redux-saga/effects';
 import { requestBooks, setBooks, catchError, requestBook, setBook } from '../actions'
-import { getAPIURL } from '../reducers'
+import { selectAPIURL } from '../reducers'
 import { fetchJSON } from '../fetch'
 
 function* fetchBooksSaga(action) {
   yield put(requestBooks())
-  const apiUrl = yield select( getAPIURL )
+  const apiUrl = yield select( selectAPIURL )
   const data = yield call(fetchJSON, apiUrl);
   if (data && !data.code) {
     yield put(setBooks(data))
