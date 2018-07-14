@@ -6,6 +6,7 @@ import { fetchJSON } from '../fetch'
 function* fetchBooksSaga(action) {
   yield put(requestBooks())
   const apiUrl = yield select( selectAPIURL )
+  console.log(apiUrl)
   const data = yield call(fetchJSON, apiUrl);
   if (data && !data.code) {
     yield put(setBooks(data))
@@ -26,6 +27,6 @@ function* fetchBookSaga(action) {
 }
 
 export default function* rootSaga() {
-  yield takeEvery(['INIT_BOOKS_SAGA','SET_SORT_ORDER'], fetchBooksSaga);
+  yield takeEvery(['INIT_BOOKS_SAGA','SET_SORT_ORDER','INC_PAGE_NUMBER','DEC_PAGE_NUMBER'], fetchBooksSaga);
   yield takeEvery('INIT_BOOK_SAGA', fetchBookSaga);
 }

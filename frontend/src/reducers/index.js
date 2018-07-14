@@ -16,7 +16,9 @@ export default combineReducers({
 export function selectAPIURL(state){
   const base = state.apiUrl.base
   const sort_order = selectSortOrder(state)
-  return `${base}?sort=${sort_order}`
+  const page_number = selectPageNumber(state)
+  const page_size = selectPageSize(state)
+  return `${base}?sort=${sort_order}&page_number=${page_number}&page_size=${page_size}`
 }
 
 export function selectSortOrder(state){
@@ -33,4 +35,12 @@ export function selectToReadList(state){
 
 export function selectHaveReadList(state){
   return state.books.have_read
+}
+
+export function selectPageNumber(state){
+  return state.apiUrl.page_number
+}
+
+export function selectPageSize(state){
+  return state.apiUrl.page_size
 }

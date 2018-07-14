@@ -65,3 +65,11 @@ export const setSortOrder = order => ({
   type: 'SET_SORT_ORDER',
   order
 })
+
+export const getNextPage = () => ({
+  type: 'INC_PAGE_NUMBER'
+})
+
+export const getPrevPage = () => ({
+  type: 'DEC_PAGE_NUMBER'
+})
