@@ -15,6 +15,11 @@ api.get('/books', (request) => {
       }
   });
 
+  //pagination
+  const page_number = request.queryString['page_number'] || 1;
+  const page_size = request.queryString['page_size'] || 5;
+  book_data = book_data.slice(page_number * page_size, (page_number + 1) * page_size);
+
   //Filter
   //TODO generalise this
   if( request.queryString['year.min'] && request.queryString['year.max'] ){
