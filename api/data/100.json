@@ -1,0 +1,1001 @@
+[{
+	"title": "Dune",
+	"author": "Frank Herbert",
+	"image": "https://images.gr-assets.com/books/1434908555l/234225.jpg",
+	"rating": "4.2",
+	"ratings": 571463,
+	"length": 604,
+	"first_published": 1965,
+	"isbn": "0340839937",
+	"url": "https://www.goodreads.com/book/show/234225.Dune"
+}, {
+	"title": "Ender's Game",
+	"author": "Orson Scott Card",
+	"image": "https://images.gr-assets.com/books/1408303130l/375802.jpg",
+	"rating": "4.3",
+	"ratings": 945031,
+	"length": 324,
+	"first_published": 1985,
+	"isbn": "0812550706",
+	"url": "https://www.goodreads.com/book/show/375802.Ender_s_Game"
+}, {
+	"title": "The Hitchhiker's Guide to the Galaxy",
+	"author": "Douglas Adams",
+	"image": "https://images.gr-assets.com/books/1388282444l/386162.jpg",
+	"rating": "4.21",
+	"ratings": 1122140,
+	"length": 193,
+	"first_published": 1979,
+	"isbn": "0345418913",
+	"url": "https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy"
+}, {
+	"title": "1984",
+	"author": "George Orwell",
+	"image": "https://images.gr-assets.com/books/1348990566l/5470.jpg",
+	"rating": "4.16",
+	"ratings": 2336925,
+	"length": 328,
+	"first_published": 1949,
+	"isbn": "0451524934",
+	"url": "https://www.goodreads.com/book/show/5470.1984"
+}, {
+	"title": "Fahrenheit 451",
+	"author": "Ray Bradbury",
+	"image": "https://images.gr-assets.com/books/1351643740l/4381.jpg",
+	"rating": "3.98",
+	"ratings": 1289006,
+	"length": 175,
+	"first_published": 1953,
+	"isbn": "0307347974",
+	"url": "https://www.goodreads.com/book/show/4381.Fahrenheit_451"
+}, {
+	"title": "Foundation",
+	"author": "Isaac Asimov",
+	"image": "https://images.gr-assets.com/books/1417900846l/29579.jpg",
+	"rating": "4.14",
+	"ratings": 329551,
+	"length": 244,
+	"first_published": 1951,
+	"isbn": "0553803719",
+	"url": "https://www.goodreads.com/book/show/29579.Foundation"
+}, {
+	"title": "Brave New World",
+	"author": "Aldous Huxley",
+	"image": "https://images.gr-assets.com/books/1523061131l/5129.jpg",
+	"rating": "3.97",
+	"ratings": 1177673,
+	"length": 288,
+	"first_published": 1932,
+	"isbn": "0060929871",
+	"url": "https://www.goodreads.com/book/show/5129.Brave_New_World"
+}, {
+	"title": "Hyperion",
+	"author": "Dan Simmons",
+	"image": "https://images.gr-assets.com/books/1405546838l/77566.jpg",
+	"rating": "4.22",
+	"ratings": 143021,
+	"length": 482,
+	"first_published": 1989,
+	"isbn": "0553283685",
+	"url": "https://www.goodreads.com/book/show/77566.Hyperion"
+}, {
+	"title": "Do Androids Dream of Electric Sheep?",
+	"author": "Philip K. Dick",
+	"image": "https://images.gr-assets.com/books/1519481930l/7082.jpg",
+	"rating": "4.08",
+	"ratings": 270925,
+	"length": 244,
+	"first_published": 1968,
+	"isbn": "0345404475",
+	"url": "https://www.goodreads.com/book/show/7082.Do_Androids_Dream_of_Electric_Sheep_"
+}, {
+	"title": "I, Robot",
+	"author": "Isaac Asimov",
+	"image": "https://images.gr-assets.com/books/1388321463l/41804.jpg",
+	"rating": "4.18",
+	"ratings": 224117,
+	"length": 224,
+	"first_published": 1950,
+	"isbn": "0553803700",
+	"url": "https://www.goodreads.com/book/show/41804.I_Robot"
+}, {
+	"title": "2001: A Space Odyssey",
+	"author": "Arthur C. Clarke",
+	"image": "https://images.gr-assets.com/books/1432468943l/70535.jpg",
+	"rating": "4.13",
+	"ratings": 196859,
+	"length": 297,
+	"first_published": 1968,
+	"isbn": "0451457994",
+	"url": "https://www.goodreads.com/book/show/70535.2001"
+}, {
+	"title": "Stranger in a Strange Land",
+	"author": "Robert A. Heinlein",
+	"image": "https://images.gr-assets.com/books/1156897088l/350.jpg",
+	"rating": "3.91",
+	"ratings": 243061,
+	"length": 528,
+	"first_published": 1961,
+	"isbn": "0441788386",
+	"url": "https://www.goodreads.com/book/show/350.Stranger_in_a_Strange_Land"
+}, {
+	"title": "Slaughterhouse-Five",
+	"author": "Kurt Vonnegut",
+	"image": "https://images.gr-assets.com/books/1440319389l/4981.jpg",
+	"rating": "4.06",
+	"ratings": 959699,
+	"length": 275,
+	"first_published": 1969,
+	"isbn": "0385333846",
+	"url": "https://www.goodreads.com/book/show/4981.Slaughterhouse_Five"
+}, {
+	"title": "The Foundation Trilogy",
+	"author": "Isaac Asimov",
+	"image": "https://images.gr-assets.com/books/1316412178l/46654.jpg",
+	"rating": "4.4",
+	"ratings": 79659,
+	"length": 679,
+	"first_published": 1953,
+	"isbn": "0380508567",
+	"url": "https://www.goodreads.com/book/show/46654.The_Foundation_Trilogy"
+}, {
+	"title": "Neuromancer",
+	"author": "William Gibson",
+	"image": "https://images.gr-assets.com/books/1167348726l/22328.jpg",
+	"rating": "3.88",
+	"ratings": 218543,
+	"length": 271,
+	"first_published": 1984,
+	"isbn": "0441569595",
+	"url": "https://www.goodreads.com/book/show/22328.Neuromancer"
+}, {
+	"title": "The Martian Chronicles",
+	"author": "Ray Bradbury",
+	"image": "https://images.gr-assets.com/books/1374049948l/76778.jpg",
+	"rating": "4.13",
+	"ratings": 171541,
+	"length": 182,
+	"first_published": 1950,
+	"isbn": "English",
+	"url": "https://www.goodreads.com/book/show/76778.The_Martian_Chronicles"
+}, {
+	"title": "Childhood's End",
+	"author": "Arthur C. Clarke",
+	"image": "https://images.gr-assets.com/books/1320552628l/414999.jpg",
+	"rating": "4.1",
+	"ratings": 105992,
+	"length": 224,
+	"first_published": 1953,
+	"isbn": "0345347951",
+	"url": "https://www.goodreads.com/book/show/414999.Childhood_s_End"
+}, {
+	"title": "The Hunger Games",
+	"author": "Suzanne Collins",
+	"image": "https://images.gr-assets.com/books/1447303603l/2767052.jpg",
+	"rating": "4.33",
+	"ratings": 5401129,
+	"length": 374,
+	"first_published": 2008,
+	"isbn": "0439023483",
+	"url": "https://www.goodreads.com/book/show/2767052-the-hunger-games"
+}, {
+	"title": "Ready Player One",
+	"author": "Ernest Cline",
+	"image": "https://images.gr-assets.com/books/1500930947l/9969571.jpg",
+	"rating": "4.29",
+	"ratings": 606059,
+	"length": 374,
+	"first_published": 2011,
+	"isbn": "030788743X",
+	"url": "https://www.goodreads.com/book/show/9969571-ready-player-one"
+}, {
+	"title": "The Forever War",
+	"author": "Joe Haldeman",
+	"image": "https://images.gr-assets.com/books/1386852511l/21611.jpg",
+	"rating": "4.15",
+	"ratings": 112614,
+	"length": 278,
+	"first_published": 1974,
+	"isbn": "0060510862",
+	"url": "https://www.goodreads.com/book/show/21611.The_Forever_War"
+}, {
+	"title": "Frankenstein",
+	"author": "Mary Wollstonecraft Shelley",
+	"image": "https://images.gr-assets.com/books/1381512375l/18490.jpg",
+	"rating": "3.77",
+	"ratings": 953433,
+	"length": 273,
+	"first_published": 1818,
+	"isbn": "0141439475",
+	"url": "https://www.goodreads.com/book/show/18490.Frankenstein"
+}, {
+	"title": "The Time Machine",
+	"author": "H.G. Wells",
+	"image": "https://images.gr-assets.com/books/1327942880l/2493.jpg",
+	"rating": "3.88",
+	"ratings": 334731,
+	"length": 118,
+	"first_published": 1895,
+	"isbn": "0451528557",
+	"url": "https://www.goodreads.com/book/show/2493.The_Time_Machine"
+}, {
+	"title": "The Martian",
+	"author": "Andy Weir",
+	"image": "https://images.gr-assets.com/books/1413706054l/18007564.jpg",
+	"rating": "4.4",
+	"ratings": 600857,
+	"length": 369,
+	"first_published": 2012,
+	"isbn": "0804139024",
+	"url": "https://www.goodreads.com/book/show/18007564-the-martian"
+}, {
+	"title": "The War of the Worlds",
+	"author": "H.G. Wells",
+	"image": "https://images.gr-assets.com/books/1320391644l/8909.jpg",
+	"rating": "3.8",
+	"ratings": 197404,
+	"length": 192,
+	"first_published": 1898,
+	"isbn": "0375759239",
+	"url": "https://www.goodreads.com/book/show/8909.The_War_of_the_Worlds"
+}, {
+	"title": "Flowers for Algernon",
+	"author": "Daniel Keyes",
+	"image": "https://images.gr-assets.com/books/1367141311l/18373.jpg",
+	"rating": "4.09",
+	"ratings": 378270,
+	"length": 311,
+	"first_published": 1959,
+	"isbn": "0156030306",
+	"url": "https://www.goodreads.com/book/show/18373.Flowers_for_Algernon"
+}, {
+	"title": "Snow Crash",
+	"author": "Neal Stephenson",
+	"image": "https://images.gr-assets.com/books/1477624625l/830.jpg",
+	"rating": "4.03",
+	"ratings": 201276,
+	"length": 438,
+	"first_published": 1992,
+	"isbn": "0553380958",
+	"url": "https://www.goodreads.com/book/show/830.Snow_Crash"
+}, {
+	"title": "The Left Hand of Darkness",
+	"author": "Ursula K. Le Guin",
+	"image": "https://images.gr-assets.com/books/1488213612l/18423.jpg",
+	"rating": "4.05",
+	"ratings": 85636,
+	"length": 304,
+	"first_published": 1969,
+	"isbn": "0441007317",
+	"url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
+}, {
+	"title": "Starship Troopers",
+	"author": "Robert A. Heinlein",
+	"image": "https://images.gr-assets.com/books/1406457252l/17214.jpg",
+	"rating": "4.0",
+	"ratings": 159207,
+	"length": 335,
+	"first_published": 1959,
+	"isbn": "0441783589",
+	"url": "https://www.goodreads.com/book/show/17214.Starship_Troopers"
+}, {
+	"title": "Rendezvous with Rama",
+	"author": "Arthur C. Clarke",
+	"image": "https://images.gr-assets.com/books/1405456427l/112537.jpg",
+	"rating": "4.07",
+	"ratings": 111033,
+	"length": 243,
+	"first_published": 1973,
+	"isbn": "1857231589",
+	"url": "https://www.goodreads.com/book/show/112537.Rendezvous_with_Rama"
+}, {
+	"title": "A Canticle for Leibowitz",
+	"author": "Walter M. Miller Jr.",
+	"image": "https://images.gr-assets.com/books/1450516880l/164154.jpg",
+	"rating": "3.98",
+	"ratings": 78016,
+	"length": 335,
+	"first_published": 1959,
+	"isbn": "0060892994",
+	"url": "https://www.goodreads.com/book/show/164154.A_Canticle_for_Leibowitz"
+}, {
+	"title": "Speaker for the Dead",
+	"author": "Orson Scott Card",
+	"image": "https://images.gr-assets.com/books/1295660894l/7967.jpg",
+	"rating": "4.05",
+	"ratings": 194109,
+	"length": 382,
+	"first_published": 1986,
+	"isbn": "0812550757",
+	"url": "https://www.goodreads.com/book/show/7967.Speaker_for_the_Dead"
+}, {
+	"title": "The Handmaid's Tale",
+	"author": "Margaret Atwood",
+	"image": "https://images.gr-assets.com/books/1498057733l/38447.jpg",
+	"rating": "4.08",
+	"ratings": 886175,
+	"length": 311,
+	"first_published": 1985,
+	"isbn": "038549081X",
+	"url": "https://www.goodreads.com/book/show/38447.The_Handmaid_s_Tale"
+}, {
+	"title": "Jurassic Park",
+	"author": "Michael Crichton",
+	"image": "https://images.gr-assets.com/books/1344371661l/6424171.jpg",
+	"rating": "3.99",
+	"ratings": 691546,
+	"length": 399,
+	"first_published": 1990,
+	"isbn": "0345370775",
+	"url": "https://www.goodreads.com/book/show/6424171-jurassic-park"
+}, {
+	"title": "A Clockwork Orange",
+	"author": "Anthony Burgess",
+	"image": "https://images.gr-assets.com/books/1348339306l/227463.jpg",
+	"rating": "3.99",
+	"ratings": 497355,
+	"length": 212,
+	"first_published": 1962,
+	"isbn": "0393312836",
+	"url": "https://www.goodreads.com/book/show/227463.A_Clockwork_Orange"
+}, {
+	"title": "The Moon is a Harsh Mistress",
+	"author": "Robert A. Heinlein",
+	"image": "https://images.gr-assets.com/books/1348768309l/16690.jpg",
+	"rating": "4.17",
+	"ratings": 92097,
+	"length": 288,
+	"first_published": 1966,
+	"isbn": "0340837942",
+	"url": "https://www.goodreads.com/book/show/16690.The_Moon_is_a_Harsh_Mistress"
+}, {
+	"title": "A Wrinkle in Time",
+	"author": "Madeleine L'Engle",
+	"image": "https://images.gr-assets.com/books/1329061522l/18131.jpg",
+	"rating": "4.03",
+	"ratings": 776810,
+	"length": 211,
+	"first_published": 1962,
+	"isbn": "0440498058",
+	"url": "https://www.goodreads.com/book/show/18131.A_Wrinkle_in_Time"
+}, {
+	"title": "Old Man's War",
+	"author": "John Scalzi",
+	"image": "https://images.gr-assets.com/books/1487044882l/51964.jpg",
+	"rating": "4.23",
+	"ratings": 123678,
+	"length": 351,
+	"first_published": 2005,
+	"isbn": "0765348276",
+	"url": "https://www.goodreads.com/book/show/51964.Old_Man_s_War"
+}, {
+	"title": "Ringworld",
+	"author": "Larry Niven",
+	"image": "https://images.gr-assets.com/books/1408793358l/61179.jpg",
+	"rating": "3.96",
+	"ratings": 89266,
+	"length": 288,
+	"first_published": 1970,
+	"isbn": "0575077026",
+	"url": "https://www.goodreads.com/book/show/61179.Ringworld"
+}, {
+	"title": "Animal Farm",
+	"author": "George Orwell",
+	"image": "https://images.gr-assets.com/books/1424037542l/7613.jpg",
+	"rating": "3.9",
+	"ratings": 2181151,
+	"length": 122,
+	"first_published": 1945,
+	"isbn": "0452284244",
+	"url": "https://www.goodreads.com/book/show/7613.Animal_Farm"
+}, {
+	"title": "The Dispossessed",
+	"author": "Ursula K. Le Guin",
+	"image": "https://images.gr-assets.com/books/1353467455l/13651.jpg",
+	"rating": "4.2",
+	"ratings": 62817,
+	"length": 387,
+	"first_published": 1974,
+	"isbn": "0061054887",
+	"url": "https://www.goodreads.com/book/show/13651.The_Dispossessed"
+}, {
+	"title": "Ubik",
+	"author": "Philip K. Dick",
+	"image": "https://images.gr-assets.com/books/1327995569l/22590.jpg",
+	"rating": "4.1",
+	"ratings": 65631,
+	"length": 288,
+	"first_published": 1969,
+	"isbn": "8498000831",
+	"url": "https://www.goodreads.com/book/show/22590.Ubik"
+}, {
+	"title": "Solaris",
+	"author": "Stanisław Lem",
+	"image": "https://images.gr-assets.com/books/1498631519l/95558.jpg",
+	"rating": "3.98",
+	"ratings": 55515,
+	"length": 204,
+	"first_published": 1961,
+	"isbn": "English",
+	"url": "https://www.goodreads.com/book/show/95558.Solaris"
+}, {
+	"title": "Contact",
+	"author": "Carl Sagan",
+	"image": "https://images.gr-assets.com/books/1408792653l/61666.jpg",
+	"rating": "4.12",
+	"ratings": 103662,
+	"length": 580,
+	"first_published": 1985,
+	"isbn": "2266079999",
+	"url": "https://www.goodreads.com/book/show/61666.Contact"
+}, {
+	"title": "The Ultimate Hitchhiker's Guide to the Galaxy",
+	"author": "Douglas Adams",
+	"image": "https://images.gr-assets.com/books/1404613595l/13.jpg",
+	"rating": "4.38",
+	"ratings": 250076,
+	"length": 815,
+	"first_published": 1996,
+	"isbn": "0345453743",
+	"url": "https://www.goodreads.com/book/show/13.The_Ultimate_Hitchhiker_s_Guide_to_the_Galaxy"
+}, {
+	"title": "I Am Legend",
+	"author": "Richard Matheson",
+	"image": "https://images.gr-assets.com/books/1390170456l/14064.jpg",
+	"rating": "4.06",
+	"ratings": 69766,
+	"length": 160,
+	"first_published": 1954,
+	"isbn": "1857988094",
+	"url": "https://www.goodreads.com/book/show/14064.I_Am_Legend"
+}, {
+	"title": "Foundation and Empire",
+	"author": "Isaac Asimov",
+	"image": "https://images.gr-assets.com/books/1391454612l/29581.jpg",
+	"rating": "4.21",
+	"ratings": 125593,
+	"length": 256,
+	"first_published": 1952,
+	"isbn": "0553803727",
+	"url": "https://www.goodreads.com/book/show/29581.Foundation_and_Empire"
+}, {
+	"title": "The Road",
+	"author": "Cormac McCarthy",
+	"image": "https://images.gr-assets.com/books/1439197219l/6288.jpg",
+	"rating": "3.96",
+	"ratings": 601596,
+	"length": 241,
+	"first_published": 2006,
+	"isbn": "0307265439",
+	"url": "https://www.goodreads.com/book/show/6288.The_Road"
+}, {
+	"title": "The Stand",
+	"author": "Stephen King",
+	"image": "https://images.gr-assets.com/books/1213131305l/149267.jpg",
+	"rating": "4.34",
+	"ratings": 512903,
+	"length": 1153,
+	"first_published": 1978,
+	"isbn": "0385199570",
+	"url": "https://www.goodreads.com/book/show/149267.The_Stand"
+}, {
+	"title": "Ender's Shadow",
+	"author": "Orson Scott Card",
+	"image": "https://images.gr-assets.com/books/1424904668l/9532.jpg",
+	"rating": "4.31",
+	"ratings": 133747,
+	"length": 469,
+	"first_published": 1999,
+	"isbn": "0765342405",
+	"url": "https://www.goodreads.com/book/show/9532.Ender_s_Shadow"
+}, {
+	"title": "The Fall of Hyperion",
+	"author": "Dan Simmons",
+	"image": "https://images.gr-assets.com/books/1429215870l/77565.jpg",
+	"rating": "4.19",
+	"ratings": 77044,
+	"length": 517,
+	"first_published": 1990,
+	"isbn": "0553288202",
+	"url": "https://www.goodreads.com/book/show/77565.The_Fall_of_Hyperion"
+}, {
+	"title": "The Stars My Destination",
+	"author": "Alfred Bester",
+	"image": "https://images.gr-assets.com/books/1433671750l/333867.jpg",
+	"rating": "4.12",
+	"ratings": 35630,
+	"length": 258,
+	"first_published": 1955,
+	"isbn": "0679767800",
+	"url": "https://www.goodreads.com/book/show/333867.The_Stars_My_Destination"
+}, {
+	"title": "The Mote in God's Eye",
+	"author": "Larry Niven",
+	"image": "https://images.gr-assets.com/books/1399490037l/100365.jpg",
+	"rating": "4.07",
+	"ratings": 54742,
+	"length": 596,
+	"first_published": 1974,
+	"isbn": "156865054X",
+	"url": "https://www.goodreads.com/book/show/100365.The_Mote_in_God_s_Eye"
+}, {
+	"title": "The Man in the High Castle",
+	"author": "Philip K. Dick",
+	"image": "https://images.gr-assets.com/books/1448756803l/216363.jpg",
+	"rating": "3.65",
+	"ratings": 127116,
+	"length": 259,
+	"first_published": 1962,
+	"isbn": "0679740678",
+	"url": "https://www.goodreads.com/book/show/216363.The_Man_in_the_High_Castle"
+}, {
+	"title": "Second Foundation",
+	"author": "Isaac Asimov",
+	"image": "https://images.gr-assets.com/books/1417900922l/29580.jpg",
+	"rating": "4.24",
+	"ratings": 113953,
+	"length": 256,
+	"first_published": 1953,
+	"isbn": "0553803735",
+	"url": "https://www.goodreads.com/book/show/29580.Second_Foundation"
+}, {
+	"title": "The Caves of Steel",
+	"author": "Isaac Asimov",
+	"image": "https://images.gr-assets.com/books/1335782224l/41811.jpg",
+	"rating": "4.15",
+	"ratings": 64186,
+	"length": 206,
+	"first_published": 1954,
+	"isbn": "0586008357",
+	"url": "https://www.goodreads.com/book/show/41811.The_Caves_of_Steel"
+}, {
+	"title": "World War Z: An Oral History of the Zombie War",
+	"author": "Max Brooks",
+	"image": "https://images.gr-assets.com/books/1528312647l/8908.jpg",
+	"rating": "4.01",
+	"ratings": 365990,
+	"length": 342,
+	"first_published": 2006,
+	"isbn": "0307346609",
+	"url": "https://www.goodreads.com/book/show/8908.World_War_Z"
+}, {
+	"title": "The Restaurant at the End of the Universe",
+	"author": "Douglas Adams",
+	"image": "https://images.gr-assets.com/books/1521213881l/8695.jpg",
+	"rating": "4.22",
+	"ratings": 188602,
+	"length": 250,
+	"first_published": 1980,
+	"isbn": "English",
+	"url": "https://www.goodreads.com/book/show/8695.The_Restaurant_at_the_End_of_the_Universe"
+}, {
+	"title": "Cat's Cradle",
+	"author": "Kurt Vonnegut",
+	"image": "https://images.gr-assets.com/books/1327867150l/135479.jpg",
+	"rating": "4.17",
+	"ratings": 294296,
+	"length": 306,
+	"first_published": 1963,
+	"isbn": "0140285601",
+	"url": "https://www.goodreads.com/book/show/135479.Cat_s_Cradle"
+}, {
+	"title": "Red Mars",
+	"author": "Kim Stanley Robinson",
+	"image": "https://images.gr-assets.com/books/1440699787l/77507.jpg",
+	"rating": "3.84",
+	"ratings": 54792,
+	"length": 572,
+	"first_published": 1993,
+	"isbn": "0553560735",
+	"url": "https://www.goodreads.com/book/show/77507.Red_Mars"
+}, {
+	"title": "The Diamond Age: Or, A Young Lady's Illustrated Primer",
+	"author": "Neal Stephenson",
+	"image": "https://images.gr-assets.com/books/1388180931l/827.jpg",
+	"rating": "4.19",
+	"ratings": 71084,
+	"length": 499,
+	"first_published": 1995,
+	"isbn": "0553380966",
+	"url": "https://www.goodreads.com/book/show/827.The_Diamond_Age"
+}, {
+	"title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+	"author": "Robert Louis Stevenson",
+	"image": "https://images.gr-assets.com/books/1318116526l/51496.jpg",
+	"rating": "3.8",
+	"ratings": 294484,
+	"length": 144,
+	"first_published": 1886,
+	"isbn": "0451528956",
+	"url": "https://www.goodreads.com/book/show/51496.The_Strange_Case_of_Dr_Jekyll_and_Mr_Hyde"
+}, {
+	"title": "Wool Omnibus",
+	"author": "Hugh Howey",
+	"image": "https://images.gr-assets.com/books/1349614200l/13453029.jpg",
+	"rating": "4.24",
+	"ratings": 132861,
+	"length": 509,
+	"first_published": 2012,
+	"isbn": "English",
+	"url": "https://www.goodreads.com/book/show/13453029-wool-omnibus"
+}, {
+	"title": "A Fire Upon the Deep",
+	"author": "Vernor Vinge",
+	"image": "https://images.gr-assets.com/books/1333915005l/77711.jpg",
+	"rating": "4.13",
+	"ratings": 43955,
+	"length": 613,
+	"first_published": 1992,
+	"isbn": "0812515285",
+	"url": "https://www.goodreads.com/book/show/77711.A_Fire_Upon_the_Deep"
+}, {
+	"title": "Journey to the Center of the Earth",
+	"author": "Jules Verne",
+	"image": "https://images.gr-assets.com/books/1389754903l/32829.jpg",
+	"rating": "3.85",
+	"ratings": 121084,
+	"length": 240,
+	"first_published": 1864,
+	"isbn": "0553213970",
+	"url": "https://www.goodreads.com/book/show/32829.Journey_to_the_Center_of_the_Earth"
+}, {
+	"title": "Gateway",
+	"author": "Frederik Pohl",
+	"image": "https://images.gr-assets.com/books/1441698400l/218427.jpg",
+	"rating": "4.07",
+	"ratings": 34426,
+	"length": 278,
+	"first_published": 1977,
+	"isbn": "0345475836",
+	"url": "https://www.goodreads.com/book/show/218427.Gateway"
+}, {
+	"title": "The Player of Games",
+	"author": "Iain M. Banks",
+	"image": "https://images.gr-assets.com/books/1386922873l/18630.jpg",
+	"rating": "4.26",
+	"ratings": 48254,
+	"length": 293,
+	"first_published": 1988,
+	"isbn": "0061053562",
+	"url": "https://www.goodreads.com/book/show/18630.The_Player_of_Games"
+}, {
+	"title": "Anathem",
+	"author": "Neal Stephenson",
+	"image": "https://images.gr-assets.com/books/1488349209l/2845024.jpg",
+	"rating": "4.18",
+	"ratings": 53325,
+	"length": 937,
+	"first_published": 2008,
+	"isbn": "0061474096",
+	"url": "https://www.goodreads.com/book/show/2845024-anathem"
+}, {
+	"title": "The Illustrated Man",
+	"author": "Ray Bradbury",
+	"image": "https://images.gr-assets.com/books/1374049820l/24830.jpg",
+	"rating": "4.14",
+	"ratings": 63718,
+	"length": 186,
+	"first_published": 1951,
+	"isbn": "000712774X",
+	"url": "https://www.goodreads.com/book/show/24830.The_Illustrated_Man"
+}, {
+	"title": "Never Let Me Go",
+	"author": "Kazuo Ishiguro",
+	"image": "https://images.gr-assets.com/books/1353048590l/6334.jpg",
+	"rating": "3.81",
+	"ratings": 366566,
+	"length": 288,
+	"first_published": 2005,
+	"isbn": "1400078776",
+	"url": "https://www.goodreads.com/book/show/6334.Never_Let_Me_Go"
+}, {
+	"title": "The Giver",
+	"author": "Lois Lowry",
+	"image": "https://images.gr-assets.com/books/1342493368l/3636.jpg",
+	"rating": "4.12",
+	"ratings": 1413015,
+	"length": 208,
+	"first_published": 1993,
+	"isbn": "0385732554",
+	"url": "https://www.goodreads.com/book/show/3636.The_Giver"
+}, {
+	"title": "Altered Carbon",
+	"author": "Richard K. Morgan",
+	"image": "https://images.gr-assets.com/books/1387128955l/40445.jpg",
+	"rating": "4.07",
+	"ratings": 61837,
+	"length": 526,
+	"first_published": 2002,
+	"isbn": "0345457692",
+	"url": "https://www.goodreads.com/book/show/40445.Altered_Carbon"
+}, {
+	"title": "The Gods Themselves",
+	"author": "Isaac Asimov",
+	"image": "https://images.gr-assets.com/books/1351076141l/41821.jpg",
+	"rating": "4.09",
+	"ratings": 44090,
+	"length": 288,
+	"first_published": 1972,
+	"isbn": "1857989341",
+	"url": "https://www.goodreads.com/book/show/41821.The_Gods_Themselves"
+}, {
+	"title": "Revelation Space",
+	"author": "Alastair Reynolds",
+	"image": "https://images.gr-assets.com/books/1405532042l/89187.jpg",
+	"rating": "3.97",
+	"ratings": 36271,
+	"length": 585,
+	"first_published": 2000,
+	"isbn": "0441009425",
+	"url": "https://www.goodreads.com/book/show/89187.Revelation_Space"
+}, {
+	"title": "The Andromeda Strain",
+	"author": "Michael Crichton",
+	"image": "https://images.gr-assets.com/books/1388889327l/7670.jpg",
+	"rating": "3.88",
+	"ratings": 191341,
+	"length": 327,
+	"first_published": 1969,
+	"isbn": "0060541814",
+	"url": "https://www.goodreads.com/book/show/7670.The_Andromeda_Strain"
+}, {
+	"title": "The Day of the Triffids",
+	"author": "John Wyndham",
+	"image": "https://images.gr-assets.com/books/1320530145l/530965.jpg",
+	"rating": "4.0",
+	"ratings": 72607,
+	"length": 228,
+	"first_published": 1951,
+	"isbn": "0812967127",
+	"url": "https://www.goodreads.com/book/show/530965.The_Day_of_the_Triffids"
+}, {
+	"title": "Doomsday Book",
+	"author": "Connie Willis",
+	"image": "https://images.gr-assets.com/books/1403972500l/24983.jpg",
+	"rating": "4.03",
+	"ratings": 40058,
+	"length": 578,
+	"first_published": 1992,
+	"isbn": "0553562738",
+	"url": "https://www.goodreads.com/book/show/24983.Doomsday_Book"
+}, {
+	"title": "A Scanner Darkly",
+	"author": "Philip K. Dick",
+	"image": "https://images.gr-assets.com/books/1388737865l/14817.jpg",
+	"rating": "4.04",
+	"ratings": 69167,
+	"length": 219,
+	"first_published": 1977,
+	"isbn": "057507681X",
+	"url": "https://www.goodreads.com/book/show/14817.A_Scanner_Darkly"
+}, {
+	"title": "Use of Weapons",
+	"author": "Iain M. Banks",
+	"image": "https://images.gr-assets.com/books/1388530572l/12007.jpg",
+	"rating": "4.18",
+	"ratings": 32184,
+	"length": 411,
+	"first_published": 1990,
+	"isbn": "185723135X",
+	"url": "https://www.goodreads.com/book/show/12007.Use_of_Weapons"
+}, {
+	"title": "Twenty Thousand Leagues Under the Sea",
+	"author": "Jules Verne",
+	"image": "https://images.gr-assets.com/books/1494979127l/33507.jpg",
+	"rating": "3.87",
+	"ratings": 161193,
+	"length": 394,
+	"first_published": 1869,
+	"isbn": "076072850X",
+	"url": "https://www.goodreads.com/book/show/33507.Twenty_Thousand_Leagues_Under_the_Sea"
+}, {
+	"title": "We",
+	"author": "Yevgeny Zamyatin",
+	"image": "https://images.gr-assets.com/books/1421883730l/76171.jpg",
+	"rating": "3.95",
+	"ratings": 53354,
+	"length": 225,
+	"first_published": 1924,
+	"isbn": "0140185852",
+	"url": "https://www.goodreads.com/book/show/76171.We"
+}, {
+	"title": "A Princess of Mars",
+	"author": "Edgar Rice Burroughs",
+	"image": "https://images.gr-assets.com/books/1332272118l/40395.jpg",
+	"rating": "3.8",
+	"ratings": 45330,
+	"length": 186,
+	"first_published": 1912,
+	"isbn": "0143104888",
+	"url": "https://www.goodreads.com/book/show/40395.A_Princess_of_Mars"
+}, {
+	"title": "Leviathan Wakes",
+	"author": "James S.A. Corey",
+	"image": "https://images.gr-assets.com/books/1411013134l/8855321.jpg",
+	"rating": "4.22",
+	"ratings": 104395,
+	"length": 561,
+	"first_published": 2011,
+	"isbn": "1841499889",
+	"url": "https://www.goodreads.com/book/show/8855321-leviathan-wakes"
+}, {
+	"title": "The Sparrow",
+	"author": "Mary Doria Russell",
+	"image": "https://images.gr-assets.com/books/1525457306l/334176.jpg",
+	"rating": "4.17",
+	"ratings": 48299,
+	"length": 516,
+	"first_published": 1996,
+	"isbn": "0449912558",
+	"url": "https://www.goodreads.com/book/show/334176.The_Sparrow"
+}, {
+	"title": "Foundation's Edge",
+	"author": "Isaac Asimov",
+	"image": "https://images.gr-assets.com/books/1442311409l/76683.jpg",
+	"rating": "4.1",
+	"ratings": 57291,
+	"length": 450,
+	"first_published": 1982,
+	"isbn": "0553293389",
+	"url": "https://www.goodreads.com/book/show/76683.Foundation_s_Edge"
+}, {
+	"title": "The End of Eternity",
+	"author": "Isaac Asimov",
+	"image": "https://images.gr-assets.com/books/1405527675l/509784.jpg",
+	"rating": "4.22",
+	"ratings": 34869,
+	"length": 192,
+	"first_published": 1955,
+	"isbn": "0449016196",
+	"url": "https://www.goodreads.com/book/show/509784.The_End_of_Eternity"
+}, {
+	"title": "The Lathe of Heaven",
+	"author": "Ursula K. Le Guin",
+	"image": "https://images.gr-assets.com/books/1433084322l/59924.jpg",
+	"rating": "4.1",
+	"ratings": 39317,
+	"length": 176,
+	"first_published": 1971,
+	"isbn": "0060512741",
+	"url": "https://www.goodreads.com/book/show/59924.The_Lathe_of_Heaven"
+}, {
+	"title": "The Windup Girl",
+	"author": "Paolo Bacigalupi",
+	"image": "https://images.gr-assets.com/books/1278940608l/6597651.jpg",
+	"rating": "3.74",
+	"ratings": 54646,
+	"length": 359,
+	"first_published": 2009,
+	"isbn": "1597801577",
+	"url": "https://www.goodreads.com/book/show/6597651-the-windup-girl"
+}, {
+	"title": "The Sirens of Titan",
+	"author": "Kurt Vonnegut",
+	"image": "https://images.gr-assets.com/books/1419363185l/4982.jpg",
+	"rating": "4.16",
+	"ratings": 92850,
+	"length": 224,
+	"first_published": 1959,
+	"isbn": "1857988841",
+	"url": "https://www.goodreads.com/book/show/4982.The_Sirens_of_Titan"
+}, {
+	"title": "The City and the Stars",
+	"author": "Arthur C. Clarke",
+	"image": "https://images.gr-assets.com/books/1340242824l/250024.jpg",
+	"rating": "4.09",
+	"ratings": 23099,
+	"length": 255,
+	"first_published": 1956,
+	"isbn": "1857987632",
+	"url": "https://www.goodreads.com/book/show/250024.The_City_and_the_Stars"
+}, {
+	"title": "Pandora's Star",
+	"author": "Peter F. Hamilton",
+	"image": "https://images.gr-assets.com/books/1440699949l/45252.jpg",
+	"rating": "4.24",
+	"ratings": 35016,
+	"length": 768,
+	"first_published": 2004,
+	"isbn": "0345461622",
+	"url": "https://www.goodreads.com/book/show/45252.Pandora_s_Star"
+}, {
+	"title": "The Island of Dr. Moreau",
+	"author": "H.G. Wells",
+	"image": "https://images.gr-assets.com/books/1388230211l/29981.jpg",
+	"rating": "3.72",
+	"ratings": 76741,
+	"length": 153,
+	"first_published": 1896,
+	"isbn": "0553214322",
+	"url": "https://www.goodreads.com/book/show/29981.The_Island_of_Dr_Moreau"
+}, {
+	"title": "Parable of the Sower",
+	"author": "Octavia E. Butler",
+	"image": "https://images.gr-assets.com/books/1442169447l/52397.jpg",
+	"rating": "4.15",
+	"ratings": 34859,
+	"length": 345,
+	"first_published": 1993,
+	"isbn": "0446675504",
+	"url": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower"
+}, {
+	"title": "Planet of the Apes",
+	"author": "Pierre Boulle",
+	"image": "https://images.gr-assets.com/books/1320558901l/414895.jpg",
+	"rating": "3.92",
+	"ratings": 27989,
+	"length": 268,
+	"first_published": 1963,
+	"isbn": "0345447980",
+	"url": "https://www.goodreads.com/book/show/414895.Planet_of_the_Apes"
+}, {
+	"title": "The Invisible Man",
+	"author": "H.G. Wells",
+	"image": "https://images.gr-assets.com/books/1388639080l/17184.jpg",
+	"rating": "3.63",
+	"ratings": 107058,
+	"length": 192,
+	"first_published": 1897,
+	"isbn": "0451528522",
+	"url": "https://www.goodreads.com/book/show/17184.The_Invisible_Man"
+}, {
+	"title": "Lord of Light",
+	"author": "Roger Zelazny",
+	"image": "https://images.gr-assets.com/books/1330127327l/13821.jpg",
+	"rating": "4.1",
+	"ratings": 23523,
+	"length": 296,
+	"first_published": 1967,
+	"isbn": "0060567236",
+	"url": "https://www.goodreads.com/book/show/13821.Lord_of_Light"
+}, {
+	"title": "Space Trilogy: Out of the Silent Planet / Perelandra / That Hideous Strength",
+	"author": "C.S. Lewis",
+	"image": "https://images.gr-assets.com/books/1386924691l/30628.jpg",
+	"rating": "4.11",
+	"ratings": 7950,
+	"length": 0,
+	"first_published": 1938,
+	"isbn": "068483118X",
+	"url": "https://www.goodreads.com/book/show/30628.Space_Trilogy"
+}, {
+	"title": "Way Station",
+	"author": "Clifford D. Simak",
+	"image": "https://images.gr-assets.com/books/1326490682l/190999.jpg",
+	"rating": "4.03",
+	"ratings": 17369,
+	"length": 210,
+	"first_published": 1963,
+	"isbn": "0020248717",
+	"url": "https://www.goodreads.com/book/show/190999.Way_Station"
+}, {
+	"title": "A Deepness in the Sky",
+	"author": "Vernor Vinge",
+	"image": "https://images.gr-assets.com/books/1217218691l/226004.jpg",
+	"rating": "4.32",
+	"ratings": 25285,
+	"length": 775,
+	"first_published": 1999,
+	"isbn": "0812536355",
+	"url": "https://www.goodreads.com/book/show/226004.A_Deepness_in_the_Sky"
+}, {
+	"title": "The Demolished Man",
+	"author": "Alfred Bester",
+	"image": "https://images.gr-assets.com/books/1360171879l/76740.jpg",
+	"rating": "4.0",
+	"ratings": 24405,
+	"length": 250,
+	"first_published": 1953,
+	"isbn": "1857988221",
+	"url": "https://www.goodreads.com/book/show/76740.The_Demolished_Man"
+}, {
+	"title": "On Basilisk Station",
+	"author": "David Weber",
+	"image": "https://images.gr-assets.com/books/1390456253l/35921.jpg",
+	"rating": "4.12",
+	"ratings": 35794,
+	"length": 458,
+	"first_published": 1992,
+	"isbn": "1416509372",
+	"url": "https://www.goodreads.com/book/show/35921.On_Basilisk_Station"
+}]

@@ -2,7 +2,7 @@
 
 const Api = require('claudia-api-builder');
 const api = new Api();
-const books = require('./data/20.json');
+const books = require('./data/100.json');
 
 api.get('/', () => 'Welcome to the BookStash API');
 
