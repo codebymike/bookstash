@@ -15,11 +15,7 @@ api.get('/books', (request) => {
       }
   });
 
-  //pagination
-  const page_number = parseInt(request.queryString['page_number']) || 1;
-  const page_size = parseInt(request.queryString['page_size']) || 5;
-  book_data = book_data.slice(page_number * page_size, (page_number + 1) * page_size);
-
+  /*
   //Filter
   //TODO generalise this
   if( request.queryString['year.min'] && request.queryString['year.max'] ){
@@ -27,9 +23,10 @@ api.get('/books', (request) => {
     let max = request.queryString['year.max'];
     book_data = book_data.filter( book => book.first_published >= min && book.first_published <= max );
   }
+  */
 
   //TODO a better way to organise this
-  if( request.queryString.sort ){
+  if( request.queryString.sort && request.queryString.sort !== 'default' ){
     let sort_func;
 
     switch( request.queryString.sort ){
@@ -52,6 +49,11 @@ api.get('/books', (request) => {
 
     book_data = book_data.sort(sort_func);
   }
+
+  //pagination
+  const page_number = parseInt(request.queryString['page_number']) || 1;
+  const page_size = parseInt(request.queryString['page_size']) || 5;
+  book_data = book_data.slice(page_number * page_size, (page_number + 1) * page_size);
 
   return book_data;
 });
