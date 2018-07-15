@@ -2,7 +2,7 @@ import React from 'react'
 import BookItem from './BookItem'
 
 const BookList = ({ books, toggleToRead, toggleHaveRead }) => (
-  <ul>
+  <ul className="books">
     {books.map(book =>
       <BookItem
         key={book.id}

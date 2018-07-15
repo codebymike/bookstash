@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const BookItem = ({ id, title, author, to_read, have_read, toggleToRead, toggleHaveRead }) => (
+const BookItem = ({ id, title, author, image, to_read, have_read, toggleToRead, toggleHaveRead }) => (
   <li>
     <Link to={{ pathname: `/book/${id}` }}>
+      <img src={ image } alt={ title } />
       {title} {author}
     </Link>
         <button onClick={ toggleHaveRead } style={{ textDecoration: have_read ? 'line-through' : 'none' }}>
